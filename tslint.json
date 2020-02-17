@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint-config-airbnb", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true
+      }
+    ],
+    "semicolon": [true, "always"],
+    "eofline": true,
+    "import-name": false,
+    "object-shorthand-properties-first": false,
+    // https://github.com/palantir/tslint-react/issues/120
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+  }
+}
