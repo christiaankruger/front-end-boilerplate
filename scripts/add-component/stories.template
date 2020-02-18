@@ -1,0 +1,10 @@
+import { storiesOf } from '@storybook/react';
+import React from 'react';
+
+import { {{UppercaseName}} } from './{{UppercaseName}}';
+
+const stories = storiesOf('{{UppercaseName}}', module);
+
+stories.add('Basic', () => {
+  return <{{UppercaseName}} />;
+});
