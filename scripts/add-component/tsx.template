@@ -1,0 +1,14 @@
+import React, { Component } from 'react';
+import { createBemHelper } from '~/util/BEM';
+
+import './{{scssFileName}}';
+
+const BEM = createBemHelper('{{dashCaseName}}');
+
+export interface {{UppercaseName}}Props { }
+
+export class {{UppercaseName}} extends Component<{{UppercaseName}}Props> {
+  render() {
+    return <div className={BEM()}>I am {{UppercaseName}}! </div>;
+  }
+}
