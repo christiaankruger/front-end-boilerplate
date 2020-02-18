@@ -6,6 +6,7 @@ A simple, opinionated boilerplate for front-end applications built with Typescri
 
     .
     ├── .storybook              # Storybook configuration
+    ├── config                  # Config for using this boilerplate
     ├── scripts                 # Utility scripts, to be run via yarn run
     ├── src                     # Source files
         ├── components          # React component folders
@@ -38,4 +39,4 @@ All these files are compiled with Handlebars.js templates, which can be found at
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
