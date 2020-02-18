@@ -13,9 +13,13 @@ A simple, opinionated boilerplate for front-end applications built with Typescri
     ├── LICENSE
     └── README.md
 
+## Configuration
+
+Add your desired BEM prefix to `config/frontEndConfig.ts`.
+
 ## Commands
 
-### `add-component`
+#### `add-component`
 
 Usage
 
