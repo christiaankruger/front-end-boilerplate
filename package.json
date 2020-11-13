@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "serve": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
     "storybook": "start-storybook -p 3456",
     "add-component": "ts-node scripts/add-component/addComponent.ts"
@@ -41,11 +42,16 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "autoprefixer": "9.8.6",
     "mobx": "^5.15.4",
     "mobx-react": "^6.1.7",
+    "postcss": "^8.1.7",
+    "postcss-cli": "^8.2.0",
+    "postcss-modules": "^3.2.2",
     "react": "^16.12.0",
     "react-bem-helper": "^1.4.1",
     "react-dom": "^16.12.0",
-    "react-router": "^5.1.2"
+    "react-router": "^5.1.2",
+    "tailwindcss": "^1.9.6"
   }
 }
