@@ -28,7 +28,7 @@
     "change-case": "^4.1.1",
     "css-loader": "^3.4.2",
     "graceful-fs": "^4.2.3",
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.7.7",
     "node-sass": "^4.13.1",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
